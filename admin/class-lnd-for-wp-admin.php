@@ -3,7 +3,7 @@
 /**
  * The admin-specific functionality of the plugin.
  *
- * @link       http://github.com/Groestlcoin/lnd-for-wp
+ * @link       http://github.com/Groestlcoin/grs-lnd-for-wp
  * @since      0.1.0
  *
  * @package    LND_For_WP
@@ -50,7 +50,7 @@ class LND_For_WP_Admin {
 	}
 
 	/**
-	 * Add lnd-for-wp to the Wordpress admin menu
+	 * Add grs-lnd-for-wp to the Wordpress admin menu
 	 *
 	 * @since    0.1.0
 	 */

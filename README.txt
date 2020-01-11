@@ -1,6 +1,5 @@
 === LND For WP ===
 Contributors: Groestlcoin
-Donate link: https://github.com/Groestlcoin/lnd-for-wp/blob/master/README.md#donate
 Tags: lnd, lightning, lightning network, groestlcoin
 Requires at least: 3.1
 Tested up to: 5.1.1
@@ -59,4 +58,4 @@ Your macaroon files are generated automatically by LND when it is started. Assum
 
 == Contribute ==
 
-Contribute to the project on [Github](https://github.com/Groestlcoin/lnd-for-wp/ "GitHub Repository").
+Contribute to the project on [Github](https://github.com/Groestlcoin/grs-lnd-for-wp/ "GitHub Repository").

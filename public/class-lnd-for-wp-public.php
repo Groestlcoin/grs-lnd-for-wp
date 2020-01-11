@@ -3,7 +3,7 @@
 /**
  * The public-facing functionality of the plugin.
  *
- * @link       http://github.com/Groestlcoin/lnd-for-wp
+ * @link       http://github.com/Groestlcoin/grs-lnd-for-wp
  * @since      0.1.0
  *
  * @package    LND_For_WP

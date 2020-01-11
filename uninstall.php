@@ -13,7 +13,7 @@
  * - Repeat with other user roles. Best directly by using the links/query string parameters.
  * - Repeat things for multisite. Once for a single site in the network, once sitewide.
  *
- * @link       http://github.com/Groestlcoin/lnd-for-wp
+ * @link       http://github.com/Groestlcoin/grs-lnd-for-wp
  * @since      0.1.0
  *
  * @package    LND_For_WP
