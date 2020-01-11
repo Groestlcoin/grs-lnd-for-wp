@@ -21,14 +21,14 @@ $settings = $this->load_default_settings();
 <?php } ?>
 
 <div class="lnd-wp-contain">
-	<h1><?php esc_html_e("LND For WP", $this->plugin_name); ?></h1>
+	<h1><?php esc_html_e("GRS LND For WP", $this->plugin_name); ?></h1>
 	<hr />
 	<p>
-		<?php esc_html_e("Welcome to LND for WordPress.", $this->plugin_name); ?><br />
-		<?php esc_html_e("Integrate, manage & use your LND Node right from your WordPress website.", $this->plugin_name); ?>
+		<?php esc_html_e("Welcome to GRS LND for WordPress.", $this->plugin_name); ?><br />
+		<?php esc_html_e("Integrate, manage & use your GRS LND Node right from your WordPress website.", $this->plugin_name); ?>
 	</p>
 	<p>
-		<?php esc_html_e("Get started by configuring your LND node connection details below.", $this->plugin_name); ?>
+		<?php esc_html_e("Get started by configuring your GRS LND node connection details below.", $this->plugin_name); ?>
 	</p>
 
 	<div class="lnd-wp-scroll-marker"></div>

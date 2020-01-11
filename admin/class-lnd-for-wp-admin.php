@@ -58,7 +58,7 @@ class LND_For_WP_Admin {
 
 		$icon = plugins_url( 'img/lightning.png', __FILE__ );
 
-		add_menu_page( "LND For WP", 'LND For WP', 'manage_options', 'lnd-for-wp', array( $this , 'admin_index') ,$icon );
+		add_menu_page( "GRS LND For WP", 'GRS LND For WP', 'manage_options', 'lnd-for-wp', array( $this , 'admin_index') ,$icon );
 
 	}
 
@@ -242,7 +242,7 @@ class LND_For_WP_Admin {
 	}
 
 	/*
-	 * Returns an object of standard class containing the remote lnd node
+	 * Returns an object of standard class containing the remote grs lnd node
 	 * connection & configuration details
 	 *
 	 * @since    0.1.0
@@ -759,7 +759,7 @@ class LND_For_WP_Admin {
 	 */
 	public function admin_footer() {
 
-		echo "LND For Wordpress Version $this->version <br />
+		echo "GRS LND For Wordpress Version $this->version <br />
 		This software is released for free.
 		";
 

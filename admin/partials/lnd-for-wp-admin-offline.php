@@ -17,7 +17,7 @@ $this->handle_form_unlock_wallet();
 
 <h2>
 	<a href="admin.php?page=lnd-for-wp">
-	LND For WP
+	GRS LND For WP
 	</a> &rarr; <?php esc_html_e("Node Offline", $this->plugin_name); ?>
 </h2>
 

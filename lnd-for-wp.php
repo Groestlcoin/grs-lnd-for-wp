@@ -12,9 +12,9 @@
  * @package           grs-lnd-for-wp
  *
  * @wordpress-plugin
- * Plugin Name:       LND For WP
+ * Plugin Name:       GRS LND For WP
  * Plugin URI:        http://github.com/Groestlcoin/grs-lnd-for-wp/
- * Description:       Manage and use your LND node.
+ * Description:       Manage and use your GRS LND node.
  * Version:           0.1.2
  * Author:            Groestlcoin Developers
  * Author URI:        https://www.groestlcoin.org/

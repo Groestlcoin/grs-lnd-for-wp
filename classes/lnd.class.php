@@ -47,7 +47,7 @@ class lnd {
 
 	/*
 	 * the maximum number of seconds to wait while attempting to
-	 * connect to the remote lnd node
+	 * connect to the remote grs lnd node
 	 */
 	private $connection_timeout = 5;
 
@@ -120,7 +120,7 @@ class lnd {
 
 	/*
 	 * Set the maximum number of seconds to wait while attempting to connect
-	 * to the remote lnd node
+	 * to the remote grs lnd node
 	 */
 	public function set_connection_timeout( $seconds ){
 
@@ -220,7 +220,7 @@ class lnd {
 
 
 	/**
-	 * Check if lnd node is reachable
+	 * Check if grs lnd node is reachable
 	 *
 	 * returns true or false.
 	 *
@@ -253,7 +253,7 @@ class lnd {
 	}
 
 	/**
-	 * Check if lnd node is online
+	 * Check if grs lnd node is online
 	 *
 	 * returns true or false.
 	 *
@@ -289,7 +289,7 @@ class lnd {
 	}
 
 	/**
-	 * Check if lnd node is online & locked
+	 * Check if grs lnd node is online & locked
 	 *
 	 * returns true or false.
 	 *
@@ -322,7 +322,7 @@ class lnd {
 	}
 
 	/**
-	 * Query lnd node for its version
+	 * Query grs lnd node for its version
 	 *
 	 * @since    0.1.0
 	 */
@@ -606,7 +606,7 @@ class lnd {
 	}
 
 	/**
-	 * Query lnd node for its alias
+	 * Query grs lnd node for its alias
 	 *
 	 * @since    0.1.0
 	 */
@@ -644,7 +644,7 @@ class lnd {
 	}
 
 	/**
-	 * Query lnd node for its pub key
+	 * Query grs lnd node for its pub key
 	 *
 	 * @since    0.1.0
 	 */
@@ -698,7 +698,7 @@ class lnd {
 	}
 
 	/**
-	 * Query lnd node to check if its synced to chain
+	 * Query grs lnd node to check if its synced to chain
 	 *
 	 * @since    0.1.0
 	 */
@@ -724,7 +724,7 @@ class lnd {
 	}
 
 	/**
-	 * Query lnd node for the block height
+	 * Query grs lnd node for the block height
 	 *
 	 * @since    0.1.0
 	 */
@@ -746,7 +746,7 @@ class lnd {
 	}
 
 	/**
-	 * Query lnd node for number of active peers
+	 * Query grs lnd node for number of active peers
 	 *
 	 * @since    0.1.0
 	 */
@@ -771,7 +771,7 @@ class lnd {
 	}
 
 	/**
-	 * Query lnd node for number of active channels
+	 * Query grs lnd node for number of active channels
 	 *
 	 * @since    0.1.0
 	 */
@@ -797,7 +797,7 @@ class lnd {
 	}
 
 	/**
-	 * Query lnd node for total gros available across all channels
+	 * Query grs lnd node for total gros available across all channels
 	 *
 	 * @since    0.1.0
 	 */
@@ -823,7 +823,7 @@ class lnd {
 	}
 
 	/**
-	 * Query lnd node for total blockchain balance (layer 1)
+	 * Query grs lnd node for total blockchain balance (layer 1)
 	 *
 	 * @since    0.1.0
 	 */
@@ -849,7 +849,7 @@ class lnd {
 	}
 
 	/**
-	 * Query lnd node for total unconfirmed blockchain balance (layer 1)
+	 * Query grs lnd node for total unconfirmed blockchain balance (layer 1)
 	 *
 	 * @since    0.1.0
 	 */
@@ -875,7 +875,7 @@ class lnd {
 	}
 
 	/**
-	 * Query lnd node for total confirmed blockchain balance (layer 1)
+	 * Query grs lnd node for total confirmed blockchain balance (layer 1)
 	 *
 	 * @since    0.1.0
 	 */
@@ -901,7 +901,7 @@ class lnd {
 	}
 
 	/**
-	 * Query lnd node and request a new on chain Groestlcoin address
+	 * Query grs lnd node and request a new on chain Groestlcoin address
 	 *
 	 * @since    0.1.0
 	 */
@@ -939,7 +939,7 @@ class lnd {
 	}
 
 	/**
-	 * Query lnd node to unlock wallet
+	 * Query grs lnd node to unlock wallet
 	 *
 	 * @since    0.1.0
 	 */
@@ -955,7 +955,7 @@ class lnd {
 	}
 
 	/**
-	 * Query lnd node to get active connected peers
+	 * Query grs lnd node to get active connected peers
 	 *
 	 * @since    0.1.0
 	 */

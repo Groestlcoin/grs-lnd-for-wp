@@ -26,11 +26,11 @@ class LND_For_WP {
 	protected $loader;
 
 	/**
-	 * The LND instance responsible for communicating with LND node
+	 * The LND instance responsible for communicating with GRS LND node
 	 *
 	 * @since    0.1.0
 	 * @access   protected
-	 * @var      LND_For_WP_Lnd    $lnd    Communicates with remote LND node
+	 * @var      LND_For_WP_Lnd    $lnd    Communicates with remote GRS LND node
 	 */
 
 	protected $lnd;

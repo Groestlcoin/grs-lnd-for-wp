@@ -1,14 +1,14 @@
 # GRS-LND-For-WP  - v0.1.2
-## A WordPress plugin for managing &amp; using your LND node.
+## A WordPress plugin for managing &amp; using your GRS LND node.
 
 ### Description
-LND For WP is a WordPress plugin that allows you to manage and use your LND node, right from your WordPress administration panel. It provides a fully functional wallet interface, allowing you to send and receive funds across the Lightning Network with ease. The user interface is responsive and will adapt to fit any web enabled desktop, tablet or mobile device. You can search the Lightning Network graph, manage peer connections and open & close channels with ease.
+GRS LND For WP is a WordPress plugin that allows you to manage and use your GRS LND node, right from your WordPress administration panel. It provides a fully functional wallet interface, allowing you to send and receive funds across the Lightning Network with ease. The user interface is responsive and will adapt to fit any web enabled desktop, tablet or mobile device. You can search the Lightning Network graph, manage peer connections and open & close channels with ease.
 The plugin has QR support, enabling basic encoding & decoding of QR codes.
-LND For WP also adds a number of WordPress 'shortcodes', allowing you to embed LND functionality directly in your website pages and posts. New Shortcodes will be added with future versions, as needs & use cases arise.
+GRS LND For WP also adds a number of WordPress 'shortcodes', allowing you to embed LND functionality directly in your website pages and posts. New Shortcodes will be added with future versions, as needs & use cases arise.
 
 ### Installation
 
-LND For WP can be installed directly from WordPress. Simply navigate to the 'Plugins -> Add New' page and search for 'LND For WP'. You can also view LND For WP on the [WordPress.org Plugin Directory](https://wordpress.org/plugins/grs-lnd-for-wp/)
+GRS LND For WP can be installed directly from WordPress. Simply navigate to the 'Plugins -> Add New' page and search for 'GRS LND For WP'. You can also view GRS LND For WP on the [WordPress.org Plugin Directory](https://wordpress.org/plugins/grs-lnd-for-wp/)
 
 To install the plugin manually using source code from this repository:
 
@@ -17,7 +17,7 @@ To install the plugin manually using source code from this repository:
 3. Click the 'Upload Plugin' button, select 'Browse' and choose the release .zip that you downloaded in step 1.
 4. Press 'Install Now'.
 5. On the next screen, press the 'Activate' button to turn on the plugin.
-6. You're done. You should now see the 'LND For WP' link on your WP admin navigation menu.
+6. You're done. You should now see the 'GRS LND For WP' link on your WP admin navigation menu.
 
 ### Frequently Asked Questions
 
