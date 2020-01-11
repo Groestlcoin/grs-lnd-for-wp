@@ -3,7 +3,7 @@
 /**
  * Register all actions and filters for the plugin
  *
- * @link       http://github.com/rstmsn/lnd-for-wp
+ * @link       http://github.com/Groestlcoin/lnd-for-wp
  * @since      0.1.0
  *
  * @package    LND_For_WP

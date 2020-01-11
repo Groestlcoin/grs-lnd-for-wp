@@ -1,7 +1,7 @@
 <div class="lnd-for-wp">
 	<form>
 		<fieldset class="amount-field">
-			<label>Satoshis</label>
+			<label>Gro</label>
 		<input type="text" class="invoice-amount" value="<?php echo $attributes['amount']; ?>" />
 		</fieldset>
 		<fieldset class="invoice-field">

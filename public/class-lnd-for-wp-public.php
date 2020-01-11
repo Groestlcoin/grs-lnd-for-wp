@@ -3,7 +3,7 @@
 /**
  * The public-facing functionality of the plugin.
  *
- * @link       http://github.com/rstmsn/lnd-for-wp
+ * @link       http://github.com/Groestlcoin/lnd-for-wp
  * @since      0.1.0
  *
  * @package    LND_For_WP
@@ -16,7 +16,7 @@
  * enqueue the public-facing stylesheet and JavaScript.
  *
  * @package    LND_For_WP
- * @author     RSTMSN
+ * @author     Groestlcoin Developers
  */
 class LND_for_WP_Public {
 

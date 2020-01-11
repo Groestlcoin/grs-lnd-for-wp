@@ -56,31 +56,31 @@ $( window ).load(function() {
 	});
 
 	/*
-     * When a bitcoin balance is clicked, this function toggles
-     * all balance amounts on screen between satoshi and BTC
+     * When a groestlcoin balance is clicked, this function toggles
+     * all balance amounts on screen between gro and GRS
 	 */
 
 	$('.lnd-balance').click(function(){
 
 		var currency = $(this).find(".lnd-balance-currency").text().trim();
 
-		if(currency == 'SAT'){
+		if(currency == 'GRO'){
 
 			$('.lnd-balance').each(function(index){
 				var amount = parseInt( $(this).find(".lnd-balance-amount").text().replace(/\,/g,'') );
 				amount = (amount/100000000).toFixed(8);
 				$(this).find(".lnd-balance-amount").text(amount);
-				$(this).find(".lnd-balance-currency").text("BTC");
+				$(this).find(".lnd-balance-currency").text("GRS");
 			});
 
-		}else if(currency == 'BTC'){
+		}else if(currency == 'GRS'){
 
 			$('.lnd-balance').each(function(index){
 				var amount = $(this).find(".lnd-balance-amount").text();
 				amount = Math.round((amount * 100000000)).toString();
 				amount = amount.replace(/(\d)(?=(\d\d\d)+(?!\d))/g, "$1,");
 				$(this).find(".lnd-balance-amount").text(amount);
-				$(this).find(".lnd-balance-currency").text("SAT");
+				$(this).find(".lnd-balance-currency").text("GRO");
 			});
 
 		}

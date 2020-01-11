@@ -5,7 +5,7 @@
  *
  * This file is used to markup the admin-facing aspects of the plugin.
  *
- * @link       http://github.com/rstmsn/lnd-for-wp
+ * @link       http://github.com/Groestlcoin/lnd-for-wp
  * @since      0.1.0
  *
  * @package    LND_For_WP
@@ -39,7 +39,7 @@ $response = $this->handle_pay_lightning_invoice_form();
 					<strong>
 						<?php esc_html_e("Confirm payment of ", $this->plugin_name); ?>
 						<?php echo number_format($response->num_satoshis); ?>
-						<?php esc_html_e("Satoshi to:", $this->plugin_name); ?>
+						<?php esc_html_e("Gro to:", $this->plugin_name); ?>
 					</strong>
 					<h3><?php echo $this->lnd->get_peer_alias($response->destination); ?>
 				</p>

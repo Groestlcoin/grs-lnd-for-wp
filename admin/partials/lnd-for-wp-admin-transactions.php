@@ -5,7 +5,7 @@
  *
  * This file is used to markup the admin-facing aspects of the plugin.
  *
- * @link       http://github.com/rstmsn/lnd-for-wp
+ * @link       http://github.com/Groestlcoin/lnd-for-wp
  * @since      0.1.0
  *
  * @package    LND_For_WP
@@ -28,7 +28,7 @@ $transactions = $this->sort_transactions_by_timestamp($this->lnd->get_transactio
 		<div class="lnd-wp-transaction">
 			<h4>TXID: <?php echo $transaction->tx_hash; ?></h4>
 			<?php echo esc_html_e($transaction->amount < 0 ? '&uarr; Sent' : '&darr; Received', $this->plugin_name); ?>
-			<?php echo number_format(abs($transaction->amount)); ?> SAT
+			<?php echo number_format(abs($transaction->amount)); ?> GRO
 
 			<?php if($transaction->amount < 0){
 				echo esc_html_e("for a fee of ", $this->plugin_name);

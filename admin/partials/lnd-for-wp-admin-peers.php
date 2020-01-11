@@ -5,7 +5,7 @@
  *
  * This file is used to markup the admin-facing aspects of the plugin.
  *
- * @link       http://github.com/rstmsn/lnd-for-wp
+ * @link       http://github.com/Groestlcoin/lnd-for-wp
  * @since      0.1.0
  *
  * @package    LND_For_WP
@@ -89,7 +89,7 @@ $dc_peer_confirm = $this->handle_disconnect_peer_form();
 							<tr>
 								<th><?php esc_html_e( "Sent", $this->plugin_name ); ?></th>
 								<th><?php esc_html_e( "Received", $this->plugin_name ); ?></th>
-								<th><?php esc_html_e( "Sat Sent", $this->plugin_name ); ?></th>
+								<th><?php esc_html_e( "Gro Sent", $this->plugin_name ); ?></th>
 								<th><?php esc_html_e( "Ping", $this->plugin_name ); ?></th>
 							</tr>
 						</thead>

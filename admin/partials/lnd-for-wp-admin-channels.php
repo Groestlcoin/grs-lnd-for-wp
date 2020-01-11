@@ -5,7 +5,7 @@
 *
 * This file is used to markup the admin-facing aspects of the plugin.
 *
-* @link       http://github.com/rstmsn/lnd-for-wp
+* @link       http://github.com/Groestlcoin/lnd-for-wp
 * @since      0.1.0
 *
 * @package    LND_For_WP
@@ -105,7 +105,7 @@ $lnd_closed_channels = $this->lnd->get_node_closed_channels();
 			?>
 
 			<p>
-				<?php esc_html_e( "Satoshis in Channel", $this->plugin_name ); ?>:
+				<?php esc_html_e( "gros in Channel", $this->plugin_name ); ?>:
 			</p>
 
 			<form method="post" action="?page=<?php echo esc_html( $_REQUEST['page'] ); ?>&f=channels">

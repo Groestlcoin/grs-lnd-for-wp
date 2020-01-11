@@ -4,7 +4,7 @@
  * Markup for the Request Payment view
  *
  *
- * @link       http://github.com/rstmsn/lnd-for-wp
+ * @link       http://github.com/Groestlcoin/lnd-for-wp
  * @since      0.1.0
  *
  * @package    LND_For_WP
@@ -31,7 +31,7 @@ $payment_request = $this->handle_payment_request_form_submit();
 			<strong>
 			<?php esc_html_e("Successfully generated invoice for ", $this->plugin_name); ?>
 			<?php echo $payment_request->amount; ?>
-			<?php esc_html_e(" Satoshi", $this->plugin_name); ?>:
+			<?php esc_html_e(" Gro", $this->plugin_name); ?>:
 			</strong>
 		</p>
 
@@ -52,7 +52,7 @@ $payment_request = $this->handle_payment_request_form_submit();
 			<input type="hidden" name="lnd-post-nonce" value="<?php echo wp_create_nonce('lnd_request_invoice'); ?>" />
 
 			<p class="lnd-receive-sat">
-				<?php esc_html_e("Invoice Amount (Satoshi)", $this->plugin_name); ?>:
+				<?php esc_html_e("Invoice Amount (Gro)", $this->plugin_name); ?>:
 			</p>
 			<input type="text" name="lnd-request-amount" class="form-control" placeholder="0" />
 			<p class="lnd-receive-memo">

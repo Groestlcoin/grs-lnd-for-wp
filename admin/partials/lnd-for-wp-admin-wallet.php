@@ -5,7 +5,7 @@
  *
  * This file is used to markup the admin-facing aspects of the plugin.
  *
- * @link       http://github.com/rstmsn/lnd-for-wp
+ * @link       http://github.com/Groestlcoin/lnd-for-wp
  * @since      0.1.0
  *
  * @package    LND_For_WP
@@ -32,7 +32,7 @@ $lnd_hostname = get_option( 'lnd-hostname', 'Undefined' );
 		</a>
 
 		<span class="lnd-wallet-balance lnd-balance">
-			<span class="lnd-balance-amount"><?php echo number_format($this->lnd->get_total_channel_balance()); ?></span><span class="lnd-wallet-currency lnd-balance-currency">SAT</span>
+			<span class="lnd-balance-amount"><?php echo number_format($this->lnd->get_total_channel_balance()); ?></span><span class="lnd-wallet-currency lnd-balance-currency">GRO</span>
 		</span>
 
 		<p class="lnd-chain-balance-label">
@@ -40,7 +40,7 @@ $lnd_hostname = get_option( 'lnd-hostname', 'Undefined' );
 		</p>
 
 		<span class="lnd-chain-balance lnd-balance">
-			<span class="lnd-balance-amount"><?php echo number_format($this->lnd->get_confirmed_balance()); ?></span><span class="lnd-chain-currency lnd-balance-currency">SAT</span>
+			<span class="lnd-balance-amount"><?php echo number_format($this->lnd->get_confirmed_balance()); ?></span><span class="lnd-chain-currency lnd-balance-currency">GRO</span>
 		</span>
 
 		<a class="lnd-wallet-transactions" href="?page=<?php echo esc_html($_REQUEST['page']); ?>&f=transactions">

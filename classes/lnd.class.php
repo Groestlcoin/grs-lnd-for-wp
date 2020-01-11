@@ -3,11 +3,11 @@
 /**
  * php-Lnd
  *
- * A PHP class for interacting with the Bitcoin
+ * A PHP class for interacting with the Groestlcoin
  * Lightning Network Daemon (LND) REST API using WP_Http.
  *
- * @author     RSTMSN
- * @link       http://github.com/rstmsn/php-lnd
+ * @author     Groestlcoin Developers
+ * @link       http://github.com/Groestlcoin/php-lnd
  * @version    0.2.0
  *
  * @package    php-lnd
@@ -797,7 +797,7 @@ class lnd {
 	}
 
 	/**
-	 * Query lnd node for total satoshis available across all channels
+	 * Query lnd node for total gros available across all channels
 	 *
 	 * @since    0.1.0
 	 */
@@ -901,7 +901,7 @@ class lnd {
 	}
 
 	/**
-	 * Query lnd node and request a new on chain bitcoin address
+	 * Query lnd node and request a new on chain Groestlcoin address
 	 *
 	 * @since    0.1.0
 	 */

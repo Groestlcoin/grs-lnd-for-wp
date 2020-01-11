@@ -5,7 +5,7 @@
  *
  * This file is used to markup the admin-facing aspects of the plugin.
  *
- * @link       http://github.com/rstmsn/lnd-for-wp
+ * @link       http://github.com/Groestlcoin/lnd-for-wp
  * @since      0.1.0
  *
  * @package    LND_For_WP
@@ -37,6 +37,6 @@
 
 	<p>
 		<strong>[lnd on_chain_address generate_new=true]</strong><br />
-		Prints an on chain Bitcoin address.
+		Prints an on chain Groestlcoin address.
 	</p>
 </div>

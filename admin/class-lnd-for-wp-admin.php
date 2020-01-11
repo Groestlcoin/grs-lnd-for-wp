@@ -3,7 +3,7 @@
 /**
  * The admin-specific functionality of the plugin.
  *
- * @link       http://github.com/rstmsn/lnd-for-wp
+ * @link       http://github.com/Groestlcoin/lnd-for-wp
  * @since      0.1.0
  *
  * @package    LND_For_WP
@@ -411,7 +411,7 @@ class LND_For_WP_Admin {
 				}
 
 			}else{
-				$this->redirect_with_message( "request", __( "Generation failed. Invalid Satoshi amount" , $this->plugin_name) );
+				$this->redirect_with_message( "request", __( "Generation failed. Invalid gro amount" , $this->plugin_name) );
 			}
 
 		}
@@ -443,7 +443,7 @@ class LND_For_WP_Admin {
 			}
 
 			if( isset( $fail_sanity_check ) && $fail_sanity_check == true ){
-				$this->redirect_with_message( "channels", __( "Invalid Satoshi amount or public key", $this->plugin_name ) );
+				$this->redirect_with_message( "channels", __( "Invalid gro amount or public key", $this->plugin_name ) );
 			}else{
 
 				$satoshi_amount = sanitize_text_field( $_REQUEST['lnd-open-channel-sat'] );
@@ -760,7 +760,7 @@ class LND_For_WP_Admin {
 	public function admin_footer() {
 
 		echo "LND For Wordpress Version $this->version <br />
-		This software is released for free, but you can support the author by sending a few satoshis to: <a href='bitcoin:3PTj3wuauVLjnL4pU2y6qx84ek9hqAL8EN'>3PTj3wuauVLjnL4pU2y6qx84ek9hqAL8EN</a>
+		This software is released for free.
 		";
 
 	}

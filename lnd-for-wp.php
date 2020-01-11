@@ -8,16 +8,16 @@
  * registers the activation and deactivation functions, and defines a function
  * that starts the plugin.
  *
- * @link              http://github.com/rstmsn/lnd-for-wp/
+ * @link              http://github.com/Groestlcoin/lnd-for-wp/
  * @package           lnd-for-wp
  *
  * @wordpress-plugin
  * Plugin Name:       LND For WP
- * Plugin URI:        http://github.com/rstmsn/lnd-for-wp/
+ * Plugin URI:        http://github.com/Groestlcoin/lnd-for-wp/
  * Description:       Manage and use your LND node.
  * Version:           0.1.2
- * Author:            RSTMSN
- * Author URI:        http://github.com/rstmsn/
+ * Author:            Groestlcoin Developers
+ * Author URI:        https://www.groestlcoin.org/
  * License:           GPL-2.0+
  * License URI:       http://www.gnu.org/licenses/gpl-2.0.txt
  * Text Domain:       lnd-for-wp
